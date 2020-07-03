@@ -1,0 +1,124 @@
+
+body{
+    background-color: black;
+}
+.container{
+    /* border: 2px solid red; */
+    height: 130px;
+    width: 500px;
+    margin: auto;
+    background-color: rgba(65, 62, 62, 0.664);
+    border-radius: 9px;
+}
+.container ul {
+    /* border: 2px solid blue; */
+    /* background-color: brown; */
+th: 458px;
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 77px;
+
+}
+.container ul li{
+    float: left;
+    margin: 6px;
+    list-style: none;
+    /* width: 163px; */
+    
+}
+.container ul li button{
+    /* background-color: tomato; */
+    background-color: rgba(65, 62, 62, 0.664);
+    /* border: 3px solid yellow; */
+    padding: 1px;
+    width: 90px;
+    border-radius: 17px;
+    font-family: 'PT Serif', serif;
+    font-size: 19px;
+    color: blanchedalmond;
+
+    
+}
+#search{
+    /* border: 2px solid seagreen; */
+    /* margin-top: 8px; */
+    /* margin-left: 13px; */
+    width: 410px;
+    
+    margin-left: 77px;
+    border-radius: 17px;
+    margin-top: 7px;
+    height: 37px;
+    padding: 3px;
+    /* background-color: rgba(128, 119, 119, 0.534); */
+    background-color: rgba(196, 185, 185, 0.11);
+
+
+   
+}
+#search:hover{
+    /* background-color: rgba(196, 185, 185, 0.11); */
+    background-color: rgba(128, 119, 119, 0.534);
+}
+input:focus{
+    outline: none;
+   
+}
+button:focus{
+    outline: none;
+}
+.container ul li button:hover{
+    /* background-color:blue; */
+    background-color: rgba(128, 119, 119, 0.534);
+    cursor: pointer;
+    color: white;
+}
+.foto{
+    /* border: 2px solid red; */
+    float: left;
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    margin-top: 4px;
+    margin-left: 9px;
+    border-radius: 19px;
+    
+    
+}
+img{
+    width: 61px;
+    /* border: 2px solid white; */
+    border-radius: 27px;
+}
+img:focus{
+    outline: none;
+}
+hr{
+    /* position: absolute; */
+    /* top: 10px; */
+}
+
+.flexes ul li{
+    list-style: none;
+}
+
+.item{
+    border: 3px solid brown;
+    margin: 5px;
+    margin-left: 0px;
+    width: 120px;
+    text-align: center;
+}
+.flexes{
+    border: 2px solid royalblue;
+    margin: 9px;
+    width: 500px;
+    margin: 14px auto;
+    border-radius: 9px;
+    height: 534px;
+    overflow: auto;
+    display: flex;
+    
+    /* flex-direction: column; */
+}
+
